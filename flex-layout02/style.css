@@ -24,3 +24,15 @@ body {
 }
 
 /* ---------------------------------------------------- */
+.kontejner {
+  display: flex;
+}
+.levy,
+.pravy
+.blok {
+  flex: 0 0 50%;
+}
+.pravy {
+  display: flex;
+  flex-direction: column;
+}
